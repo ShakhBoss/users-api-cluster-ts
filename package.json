@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start:dev": "cross-env NODE_ENV=development ts-node-dev src/index.ts",
+    "start:dev": "ts-node-dev src/index.single.ts",
   "start:prod": "tsc && node dist/index.js",
-  "start:multi": "ts-node src/cluster.ts"
+  "start:multi": "ts-node src/cluster.ts",
+  "build": "tsc",
+  "lint": "eslint . --ext .ts"
   },
   "keywords": [],
   "author": "",

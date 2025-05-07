@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "cross-env NODE_ENV=development ts-node-dev src/index.ts",
-  "start:prod": "tsc && node dist/index.js"
+  "start:prod": "tsc && node dist/index.js",
+  "start:multi": "ts-node src/cluster.ts"
   },
   "keywords": [],
   "author": "",

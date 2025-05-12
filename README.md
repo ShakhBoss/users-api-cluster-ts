@@ -126,4 +126,4 @@ MIT License
 ---
 
 ## 👨‍💻 Author
-RS School Node.js Q2 Student Project
+RS School Node.js Q2 Shakhboz
